@@ -1,4 +1,4 @@
-# Fake News Detection Using Deep Learning on the CIC Truth Seeker Dataset 2023  
+# Fake News Detection on X using LSTM, CNN, and CNN-LSTM
 
 ## Overview  
 This project explores the use of deep learning models to detect fake news on social media platforms, specifically using the **CIC Truth Seeker Dataset 2023**. The dataset comprises over **120,000 tweets** from users of X (formerly Twitter), reflecting opinions on **700 true news stories and 700 false news stories**. The false news classification was determined by **456 experts** via Amazon Mechanical Turk.
