@@ -1,0 +1,44 @@
+Maximum length of a tweet: 45
+Number of tweets: 134195
+Number of unique words: 44114
+['ï¿½', 'magats', 'mayorkas', 'cadillacs', 'damascus', 'scowis', 'abcnews', 'mathis', 'macys', 'nowis', 'novaks', 'ideologyas', 'securityhis', 'yearthis', 'fudgers', 'timothyits', 'countryas', 'chinasos', 'wifiis', 'bollierks', 'naness', 'lopezs', 'healthcaress', 'hashas', 'livingyes', 'thatcherism', 'picasso', 'himas', 'communityhas', 'familyis', 'handsinessis', 'derriï¿½re', 'terrorismas', 'capitalismis', 'insuranceis', 'yeahits', 'citizenshipis', 'measlesis', 'maï¿½ana', 'chiefits', 'emergencyuse', 'rosemaries', 'reffitts', 'custodyyes', 'wittinesses', 'somethingus', 'oxys', 'governmentits', 'patriarchatewas', 'jayzs', 'sugarus', 'pressureits', 'wedlockas', 'certaintyas', 'enoughgas', 'lttexas', 'thattheres', 'letssss', 'traficrs', 'stuffwas', 'shitwas', 'tubulins', 'mercuryis', 'aluminumas', 'shitcos', 'jurrbs', 'healthcareits', 'mayorkis', 'beckys', 'chinaits', 'chinais', 'gaslighters', 'gamethis', 'northams', 'plusthis', 'muchis', 'transgenderis', 'countryms', 'countryusa', 'dohis', 'nothinghis', 'knifehis', 'unemploymentgas', 'wellthis', 'moneyits', 'nowask', 'callingbs']
+Epoch 1/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 192s 111ms/step - accuracy: 0.8011 - loss: 0.4526 - val_accuracy: 0.9132 - val_loss: 0.2783
+Epoch 2/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 189s 113ms/step - accuracy: 0.9124 - loss: 0.2773 - val_accuracy: 0.9308 - val_loss: 0.2447
+Epoch 3/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 189s 113ms/step - accuracy: 0.9269 - loss: 0.2485 - val_accuracy: 0.9365 - val_loss: 0.2365
+Epoch 4/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 190s 113ms/step - accuracy: 0.9340 - loss: 0.2314 - val_accuracy: 0.9388 - val_loss: 0.2317
+Epoch 5/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 189s 112ms/step - accuracy: 0.9362 - loss: 0.2228 - val_accuracy: 0.9375 - val_loss: 0.2414
+Epoch 6/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 190s 113ms/step - accuracy: 0.9404 - loss: 0.2130 - val_accuracy: 0.9402 - val_loss: 0.2378
+Epoch 7/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 191s 114ms/step - accuracy: 0.9425 - loss: 0.2044 - val_accuracy: 0.9421 - val_loss: 0.2313
+Epoch 8/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 195s 116ms/step - accuracy: 0.9432 - loss: 0.2005 - val_accuracy: 0.9425 - val_loss: 0.2316
+Epoch 9/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 193s 115ms/step - accuracy: 0.9428 - loss: 0.1987 - val_accuracy: 0.9423 - val_loss: 0.2351
+Epoch 10/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 192s 114ms/step - accuracy: 0.9448 - loss: 0.1933 - val_accuracy: 0.9434 - val_loss: 0.2332
+Model: "sequential"
+┌─────────────────────────────────┬────────────────────────┬───────────────┐
+│ Layer (type)                    │ Output Shape           │       Param # │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ embedding (Embedding)           │ (None, 45, 300)        │     1,500,000 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ spatial_dropout1d               │ (None, 45, 300)        │             0 │
+│ (SpatialDropout1D)              │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ bidirectional (Bidirectional)   │ (None, 45, 256)        │       439,296 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ global_max_pooling1d            │ (None, 256)            │             0 │
+│ (GlobalMaxPooling1D)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 1)              │           257 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 2,818,661 (10.75 MB)
+ Trainable params: 439,553 (1.68 MB)
+ Non-trainable params: 1,500,000 (5.72 MB)
+ Optimizer params: 879,108 (3.35 MB)

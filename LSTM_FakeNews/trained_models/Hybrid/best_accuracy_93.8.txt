@@ -1,0 +1,90 @@
+Maximum length of a tweet: 46
+Number of tweets: 134195
+Vocabulary size: 33611
+x_train shape: (107356, 46), y_train shape: (107356,)
+x_val shape: (26839, 46), y_val shape: (26839,)
+Number of positive samples in test set: 13797
+Number of negative samples in test set: 13042
+['btc', 'inperson', 'ghislaine', 'unarm', 'alexandria', 'preexist', 'rfl', 'magats', 'gof', 'farleft', 'gnd', 'jfc', 'rtx', 'rfk', 'oann', 'vaxd', 'ginsburgs', 'cosby', 'photoid', 'filum', 'coburn', 'modernas', 'osv', 'erdogan', 'dominick', 'covids', 'stefanik', 'hickman', 'wrey', 'cantrell', 'ipia', 'feinsteins', 'zuckerbergs', 'sicknick', 'mayorkas', 'cadillacs', 'msnbcs', 'eisenhowers', 'syncytin', 'malnourish', 'ffl', 'gfc', 'huffpost', 'ctl', 'libcrib', 'menwomen', 'dnd', 'dumbfuck', 'omnicron', 'babbitt', 'raskin', 'hku', 'giulianis', 'stayhome', 'westjet', 'valerie', 'nicaraguan', 'ryans', 'mccloskeys', 'asda', 'damascus', 'olmsteads', 'prochina', 'honduran', 'emmett', 'deerfields', 'scowis', 'nicaraguas', 'deadass', 'donnies', 'guatemalan', 'johanns', 'mcdaniels', 'prussian', 'neolibs', 'wfh', 'qo', 'labium', 'kmo', 'siberia', 'thisact', 'trudeaus', 'xxe', 'montagniers', 'abcnews', 'wwgwga', 'hickmans', 'andr', 'darrell', 'corru', 'moreabout', 'iowas', 'numnuts', 'appalachias', 'bumfuck', 'virginians', 'marseille', 'racethe', 'underdevelop', 'xf', 'pinellas', 'vcf', 'opoids', 'jnj', 'vf', 'impend', 'syma', 'mathis', 'athenian', 'kurd', 'amdg', 'galileo', 'bernadino', 'wtc', 'eestonia', 'amistad', 'paytoplay', 'immanuels', 'jovenel', 'hamish', 'chrissy', 'achampet', 'prussia', 'cdf', 'lessthe', 'macys', 'exxonmobile', 'natos', 'krushchevs', 'greenwich', 'elli', 'milium', 'masculinos', 'acdc', 'jennifers', 'ctv', 'nowis', 'covidif', 'crenshaws', 'engis', 'sindh', 'novaks', 'dokie', 'afd', 'slovenian', 'tunisian', 'yglesias', 'juda', 'aaand', 'ideologyas', 'securityhis', 'yearthis', 'ncfri', 'fudgers', 'brkr', 'coand', 'poorpaying', 'youtubers', 'ninenine', 'hennon', 'petrellas', 'timothyits', 'casselman', 'icmri', 'penshaw', 'jhu', 'tq', 'likesits', 'countryas', 'nbf', 'wifiis', 'marlo', 'jobfailing', 'bhayam', 'rassi', 'turkministan', 'koria', 'aftvotes', 'slovenias', 'virginiais', 'bollierks', 'domenici', 'itdo', 'topfacts', 'kenyattas', 'cornelius', 'cavanaughs', 'fostercare', 'naness', 'syncytial', 'navin', 'screwie', 'lopezs', 'bharara', 'nonsignatories', 'peolosi', 'hashas', 'livingyes', 'shless', 'likefor', 'unand', 'thatcherism', 'morewho', 'teachouts', 'unhvotes', 'picasso', 'dogooder', 'didon', 'underour', 'openseat', 'himas', 'lawence', 'topmarks', 'anbc', 'uco', 'oef', 'prosoldier', 'bilawal', 'asswaziland', 'iaad', 'isiswati', 'wfto', 'swazilandi', 'andbotswana', 'terrell', 'corruptmost', 'communityhas', 'fbf', 'okand', 'dimba', 'neonzis', 'netanyahus', 'labelle', 'constantpain', 'finkel', 'familyis', 'fusiongps', 'administrationhis', 'handsinessis', 'derrire', 'orrrrr', 'christianist', 'treasonist', 'terrorismas', 'jacobin', 'capitalismis', 'periodled', 'insuranceis', 'acaand', 'rkennedy', 'mcauliffes', 'luxemburg', 'yeahits', 'citizenshipis', 'estonian', 'yessnip', 'hucksterbee', 'qnd', 'setasides', 'gandz', 'aldi', 'abash', 'measlesis', 'likewtf', 'laymans', 'maoi', 'maana', 'chiefits', 'faggott', 'vand', 'anddd', 'tadjikistan', 'emergencyuse', 'covidit', 'crosselast', 'gilliams', 'msbabbitt', 'niels', 'tanzanian', 'madascar', 'carottes', 'marseillan', 'custodyyes', 'scheller', 'neguse', 'radcliffes', 'gtmo', 'treasoners', 'somethingus', 'omicrom', 'pennsylvanian', 'atxd', 'onesbest', 'elicence', 'tarsha', 'redmap', 'oxys', 'bkackman', 'ocf', 'goldstar', 'ctf', 'comubia', 'crossett', 'xtc', 'likeit', 'christo', 'mississippians', 'patriarchatewas', 'moldavia', 'granada', 'brezhnevs', 'moldovans', 'dysphomisim', 'learnmmt', 'jayzs', 'turnbulls', 'brennen', 'preiraq', 'weismanns', 'pressureits', 'unvaxs', 'ukus', 'westerse', 'wedlockas', 'aetna', 'keik', 'eukrainians', 'lwentworth', 'joura', 'orif', 'ozz', 'aguilera', 'zaghisms', 'caifanes', 'wfc', 'numbnut', 'demonetize', 'doand', 'certaintyas', 'enoughgas', 'barrasso', 'fnc', 'anwr', 'insettings', 'covidsa', 'vxd', 'maddocks', 'soldano', 'schroeders', 'augustsept', 'omnicrom', 'omycon', 'mexica', 'zeus', 'popeyes', 'anpp', 'unvetteds', 'traficrs', 'stuffwas', 'periodttt', 'tubulins', 'mercuryis', 'aluminumas', 'antichina', 'caprisun', 'blearyeyed', 'leimen', 'andys', 'fulfil', 'escambia', 'gtf', 'ronnies', 'funyour', 'jurrbs', 'healthcareits', 'andoh', 'gasadded', 'savemore', 'debevc', 'traveljobs', 'woodsing', 'periodand', 'zimation', 'roganlike', 'arcanum', 'emmeth', 'goingdoes', 'mayorkis', 'dalessandro', 'avd', 'treasoner', 'ohmicron', 'faceshes', 'bidenhood', 'beckys', 'learnit', 'haskins', 'dnj', 'nicknack', 'presidenthis', 'openbut', 'niad', 'covidare', 'ucnd', 'osho', 'sodano', 'hogworts', 'westwing', 'chinaits', 'clamour', 'chinais', 'gaslighters', 'gamethis', 'hellis', 'discred', 'sandinist', 'paand', 'idand', 'ferraris', 'valmikis', 'gastonia', 'pennsylvanians', 'arnd', 'cicatrixes', 'northams', 'nqf', 'antistock', 'plusthis', 'whyits', 'sarisota', 'leahr', 'yearnot', 'muchis', 'transgenderis', 'countryms', 'varadker', 'caville', 'mcgregors', 'sumsuch', 'tolson', 'countryusa', 'dohis', 'nothinghis', 'kofi', 'udc', 'boysare', 'antfia', 'noand', 'knifehis', 'carvelle', 'farlefts', 'screwover', 'mccrorys', 'unemploymentgas', 'ausvotes', 'mercatus', 'lightfoots', 'kernnedy', 'mostafa', 'wellthis', 'tablespooful', 'zemeckiss', 'zandt', 'pcrtest', 'nowask', 'sarsco', 'albanians', 'thenno', 'rineharts', 'wnc', 'monast', 'paraguayen', 'nsder', 'comitatus', 'centre', 'pnd', 'callingbs', 'crensaw', 'stocktrading']
+Epoch 1/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 65s 35ms/step - accuracy: 0.7926 - loss: 0.4650 - val_accuracy: 0.9157 - val_loss: 0.2712 - learning_rate: 0.0010
+Epoch 2/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 57s 34ms/step - accuracy: 0.9027 - loss: 0.2889 - val_accuracy: 0.9261 - val_loss: 0.2447 - learning_rate: 0.0010
+Epoch 3/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 58s 34ms/step - accuracy: 0.9164 - loss: 0.2587 - val_accuracy: 0.9291 - val_loss: 0.2382 - learning_rate: 0.0010
+Epoch 4/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 60s 36ms/step - accuracy: 0.9212 - loss: 0.2490 - val_accuracy: 0.9334 - val_loss: 0.2338 - learning_rate: 0.0010
+Epoch 5/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 58s 35ms/step - accuracy: 0.9258 - loss: 0.2371 - val_accuracy: 0.9340 - val_loss: 0.2265 - learning_rate: 0.0010
+Epoch 6/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 59s 35ms/step - accuracy: 0.9260 - loss: 0.2354 - val_accuracy: 0.9351 - val_loss: 0.2264 - learning_rate: 0.0010
+Epoch 7/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 61s 36ms/step - accuracy: 0.9280 - loss: 0.2311 - val_accuracy: 0.9348 - val_loss: 0.2246 - learning_rate: 0.0010
+Epoch 8/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 59s 35ms/step - accuracy: 0.9291 - loss: 0.2281 - val_accuracy: 0.9347 - val_loss: 0.2239 - learning_rate: 0.0010
+Epoch 9/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 59s 35ms/step - accuracy: 0.9315 - loss: 0.2210 - val_accuracy: 0.9368 - val_loss: 0.2217 - learning_rate: 0.0010
+Epoch 10/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 59s 35ms/step - accuracy: 0.9332 - loss: 0.2174 - val_accuracy: 0.9370 - val_loss: 0.2203 - learning_rate: 0.0010
+Epoch 11/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 57s 34ms/step - accuracy: 0.9334 - loss: 0.2166 - val_accuracy: 0.9371 - val_loss: 0.2202 - learning_rate: 0.0010
+Epoch 12/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 57s 34ms/step - accuracy: 0.9322 - loss: 0.2180 - val_accuracy: 0.9368 - val_loss: 0.2208 - learning_rate: 0.0010
+Epoch 13/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 58s 34ms/step - accuracy: 0.9350 - loss: 0.2109 - val_accuracy: 0.9359 - val_loss: 0.2204 - learning_rate: 0.0010
+Epoch 14/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 62s 37ms/step - accuracy: 0.9357 - loss: 0.2095 - val_accuracy: 0.9373 - val_loss: 0.2188 - learning_rate: 0.0010
+Epoch 15/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 58s 35ms/step - accuracy: 0.9359 - loss: 0.2091 - val_accuracy: 0.9380 - val_loss: 0.2199 - learning_rate: 0.0010
+Epoch 16/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 61s 36ms/step - accuracy: 0.9357 - loss: 0.2089 - val_accuracy: 0.9365 - val_loss: 0.2201 - learning_rate: 0.0010
+Epoch 17/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 57s 34ms/step - accuracy: 0.9361 - loss: 0.2068 - val_accuracy: 0.9373 - val_loss: 0.2219 - learning_rate: 0.0010
+839/839 ━━━━━━━━━━━━━━━━━━━━ 9s 9ms/step
+Accuracy: 0.9372554864190171
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94     13042
+           1       0.94      0.94      0.94     13797
+
+    accuracy                           0.94     26839
+   macro avg       0.94      0.94      0.94     26839
+weighted avg       0.94      0.94      0.94     26839
+
+Confusion Matrix:
+ [[12205   837]
+ [  847 12950]]
+Class 0: 13052 predictions (48.63%)
+Class 1: 13787 predictions (51.37%)
+Model: "sequential"
+┌─────────────────────────────────┬────────────────────────┬───────────────┐
+│ Layer (type)                    │ Output Shape           │       Param # │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ embedding (Embedding)           │ (None, 46, 300)        │     1,500,000 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ spatial_dropout1d               │ (None, 46, 300)        │             0 │
+│ (SpatialDropout1D)              │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv1d (Conv1D)                 │ (None, 44, 64)         │        57,664 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling1d (MaxPooling1D)    │ (None, 22, 64)         │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 22, 64)         │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ bidirectional (Bidirectional)   │ (None, 22, 128)        │        66,048 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization             │ (None, 22, 128)        │           512 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ global_max_pooling1d            │ (None, 128)            │             0 │
+│ (GlobalMaxPooling1D)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 1)              │           129 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 1,872,549 (7.14 MB)
+ Trainable params: 124,097 (484.75 KB)
+ Non-trainable params: 1,500,256 (5.72 MB)
+ Optimizer params: 248,196 (969.52 KB)
+
+Process finished with exit code 0

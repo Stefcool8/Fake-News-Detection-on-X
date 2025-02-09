@@ -1,0 +1,61 @@
+Maximum length of a tweet: 44
+Number of tweets: 134194
+Vocabulary size: 42879
+['magats', 'mayorkas', 'cadillacs', 'damascus', 'scowis', 'abcnews', 'mathis', 'macys', 'nowis', 'novaks', 'ideologyas', 'securityhis', 'yearthis', 'fudgers', 'timothyits', 'countryas', 'chinasos', 'wifiis', 'bollierks', 'naness', 'lopezs', 'healthcaress', 'hashas', 'livingyes', 'thatcherism', 'picasso', 'himas', 'communityhas', 'familyis', 'handsinessis', 'terrorismas', 'capitalismis', 'insuranceis', 'yeahits', 'citizenshipis', 'measlesis', 'chiefits', 'emergencyuse', 'rosemaries', 'reffitts', 'custodyyes', 'wittinesses', 'somethingus', 'oxys', 'governmentits', 'patriarchatewas', 'jayzs', 'sugarus', 'pressureits', 'wedlockas', 'certaintyas', 'enoughgas', 'lttexas', 'thattheres', 'letssss', 'traficrs', 'stuffwas', 'shitwas', 'tubulins', 'mercuryis', 'aluminumas', 'shitcos', 'jurrbs', 'healthcareits', 'mayorkis', 'beckys', 'chinaits', 'chinais', 'gaslighters', 'gamethis', 'northams', 'plusthis', 'muchis', 'transgenderis', 'countryms', 'countryusa', 'dohis', 'nothinghis', 'knifehis', 'unemploymentgas', 'wellthis', 'moneyits', 'nowask', 'callingbs']
+Epoch 1/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 193s 112ms/step - accuracy: 0.7992 - loss: 0.4552 - val_accuracy: 0.9178 - val_loss: 0.2658
+Epoch 2/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 190s 113ms/step - accuracy: 0.9070 - loss: 0.2860 - val_accuracy: 0.9329 - val_loss: 0.2388
+Epoch 3/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 191s 114ms/step - accuracy: 0.9267 - loss: 0.2483 - val_accuracy: 0.9375 - val_loss: 0.2293
+Epoch 4/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 191s 114ms/step - accuracy: 0.9322 - loss: 0.2352 - val_accuracy: 0.9396 - val_loss: 0.2290
+Epoch 5/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 188s 112ms/step - accuracy: 0.9367 - loss: 0.2219 - val_accuracy: 0.9437 - val_loss: 0.2213
+Epoch 6/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 195s 116ms/step - accuracy: 0.9383 - loss: 0.2165 - val_accuracy: 0.9424 - val_loss: 0.2271
+Epoch 7/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 199s 118ms/step - accuracy: 0.9418 - loss: 0.2085 - val_accuracy: 0.9443 - val_loss: 0.2200
+Epoch 8/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 199s 119ms/step - accuracy: 0.9417 - loss: 0.2048 - val_accuracy: 0.9451 - val_loss: 0.2250
+Epoch 9/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 202s 120ms/step - accuracy: 0.9436 - loss: 0.1969 - val_accuracy: 0.9458 - val_loss: 0.2256
+Epoch 10/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 192s 115ms/step - accuracy: 0.9440 - loss: 0.1929 - val_accuracy: 0.9464 - val_loss: 0.2220
+839/839 ━━━━━━━━━━━━━━━━━━━━ 23s 26ms/step
+Accuracy: 0.9443347367636649
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94     13027
+           1       0.94      0.95      0.95     13812
+
+    accuracy                           0.94     26839
+   macro avg       0.94      0.94      0.94     26839
+weighted avg       0.94      0.94      0.94     26839
+
+Confusion Matrix:
+ [[12263   764]
+ [  730 13082]]
+Class 0: 12993 predictions (48.41%)
+Class 1: 13846 predictions (51.59%)
+Model: "sequential"
+┌─────────────────────────────────┬────────────────────────┬───────────────┐
+│ Layer (type)                    │ Output Shape           │       Param # │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ embedding (Embedding)           │ (None, 44, 300)        │     1,500,000 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ spatial_dropout1d               │ (None, 44, 300)        │             0 │
+│ (SpatialDropout1D)              │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ bidirectional (Bidirectional)   │ (None, 44, 256)        │       439,296 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ global_max_pooling1d            │ (None, 256)            │             0 │
+│ (GlobalMaxPooling1D)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 1)              │           257 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 2,818,661 (10.75 MB)
+ Trainable params: 439,553 (1.68 MB)
+ Non-trainable params: 1,500,000 (5.72 MB)
+ Optimizer params: 879,108 (3.35 MB)

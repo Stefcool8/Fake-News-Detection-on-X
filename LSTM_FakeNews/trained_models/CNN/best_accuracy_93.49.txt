@@ -1,0 +1,58 @@
+Maximum length of a tweet: 46
+Number of tweets: 134195
+Vocabulary size: 33611
+Number of positive samples in test set: 13797
+Number of negative samples in test set: 13042
+['btc', 'inperson', 'ghislaine', 'unarm', 'alexandria', 'preexist', 'rfl', 'magats', 'gof', 'farleft', 'gnd', 'jfc', 'rtx', 'rfk', 'oann', 'vaxd', 'ginsburgs', 'cosby', 'photoid', 'filum', 'coburn', 'modernas', 'osv', 'erdogan', 'dominick', 'covids', 'stefanik', 'hickman', 'wrey', 'cantrell', 'ipia', 'feinsteins', 'zuckerbergs', 'sicknick', 'mayorkas', 'cadillacs', 'msnbcs', 'eisenhowers', 'syncytin', 'malnourish', 'ffl', 'gfc', 'huffpost', 'ctl', 'libcrib', 'menwomen', 'dnd', 'dumbfuck', 'omnicron', 'babbitt', 'raskin', 'hku', 'giulianis', 'stayhome', 'westjet', 'valerie', 'nicaraguan', 'ryans', 'mccloskeys', 'asda', 'damascus', 'olmsteads', 'prochina', 'honduran', 'emmett', 'deerfields', 'scowis', 'nicaraguas', 'deadass', 'donnies', 'guatemalan', 'johanns', 'mcdaniels', 'prussian', 'neolibs', 'wfh', 'qo', 'labium', 'kmo', 'siberia', 'thisact', 'trudeaus', 'xxe', 'montagniers', 'abcnews', 'wwgwga', 'hickmans', 'andr', 'darrell', 'corru', 'moreabout', 'iowas', 'numnuts', 'appalachias', 'bumfuck', 'virginians', 'marseille', 'racethe', 'underdevelop', 'xf', 'pinellas', 'vcf', 'opoids', 'jnj', 'vf', 'impend', 'syma', 'mathis', 'athenian', 'kurd', 'amdg', 'galileo', 'bernadino', 'wtc', 'eestonia', 'amistad', 'paytoplay', 'immanuels', 'jovenel', 'hamish', 'chrissy', 'achampet', 'prussia', 'cdf', 'lessthe', 'macys', 'exxonmobile', 'natos', 'krushchevs', 'greenwich', 'elli', 'milium', 'masculinos', 'acdc', 'jennifers', 'ctv', 'nowis', 'covidif', 'crenshaws', 'engis', 'sindh', 'novaks', 'dokie', 'afd', 'slovenian', 'tunisian', 'yglesias', 'juda', 'aaand', 'ideologyas', 'securityhis', 'yearthis', 'ncfri', 'fudgers', 'brkr', 'coand', 'poorpaying', 'youtubers', 'ninenine', 'hennon', 'petrellas', 'timothyits', 'casselman', 'icmri', 'penshaw', 'jhu', 'tq', 'likesits', 'countryas', 'nbf', 'wifiis', 'marlo', 'jobfailing', 'bhayam', 'rassi', 'turkministan', 'koria', 'aftvotes', 'slovenias', 'virginiais', 'bollierks', 'domenici', 'itdo', 'topfacts', 'kenyattas', 'cornelius', 'cavanaughs', 'fostercare', 'naness', 'syncytial', 'navin', 'screwie', 'lopezs', 'bharara', 'nonsignatories', 'peolosi', 'hashas', 'livingyes', 'shless', 'likefor', 'unand', 'thatcherism', 'morewho', 'teachouts', 'unhvotes', 'picasso', 'dogooder', 'didon', 'underour', 'openseat', 'himas', 'lawence', 'topmarks', 'anbc', 'uco', 'oef', 'prosoldier', 'bilawal', 'asswaziland', 'iaad', 'isiswati', 'wfto', 'swazilandi', 'andbotswana', 'terrell', 'corruptmost', 'communityhas', 'fbf', 'okand', 'dimba', 'neonzis', 'netanyahus', 'labelle', 'constantpain', 'finkel', 'familyis', 'fusiongps', 'administrationhis', 'handsinessis', 'derrire', 'orrrrr', 'christianist', 'treasonist', 'terrorismas', 'jacobin', 'capitalismis', 'periodled', 'insuranceis', 'acaand', 'rkennedy', 'mcauliffes', 'luxemburg', 'yeahits', 'citizenshipis', 'estonian', 'yessnip', 'hucksterbee', 'qnd', 'setasides', 'gandz', 'aldi', 'abash', 'measlesis', 'likewtf', 'laymans', 'maoi', 'maana', 'chiefits', 'faggott', 'vand', 'anddd', 'tadjikistan', 'emergencyuse', 'covidit', 'crosselast', 'gilliams', 'msbabbitt', 'niels', 'tanzanian', 'madascar', 'carottes', 'marseillan', 'custodyyes', 'scheller', 'neguse', 'radcliffes', 'gtmo', 'treasoners', 'somethingus', 'omicrom', 'pennsylvanian', 'atxd', 'onesbest', 'elicence', 'tarsha', 'redmap', 'oxys', 'bkackman', 'ocf', 'goldstar', 'ctf', 'comubia', 'crossett', 'xtc', 'likeit', 'christo', 'mississippians', 'patriarchatewas', 'moldavia', 'granada', 'brezhnevs', 'moldovans', 'dysphomisim', 'learnmmt', 'jayzs', 'turnbulls', 'brennen', 'preiraq', 'weismanns', 'pressureits', 'unvaxs', 'ukus', 'westerse', 'wedlockas', 'aetna', 'keik', 'eukrainians', 'lwentworth', 'joura', 'orif', 'ozz', 'aguilera', 'zaghisms', 'caifanes', 'wfc', 'numbnut', 'demonetize', 'doand', 'certaintyas', 'enoughgas', 'barrasso', 'fnc', 'anwr', 'insettings', 'covidsa', 'vxd', 'maddocks', 'soldano', 'schroeders', 'augustsept', 'omnicrom', 'omycon', 'mexica', 'zeus', 'popeyes', 'anpp', 'unvetteds', 'traficrs', 'stuffwas', 'periodttt', 'tubulins', 'mercuryis', 'aluminumas', 'antichina', 'caprisun', 'blearyeyed', 'leimen', 'andys', 'fulfil', 'escambia', 'gtf', 'ronnies', 'funyour', 'jurrbs', 'healthcareits', 'andoh', 'gasadded', 'savemore', 'debevc', 'traveljobs', 'woodsing', 'periodand', 'zimation', 'roganlike', 'arcanum', 'emmeth', 'goingdoes', 'mayorkis', 'dalessandro', 'avd', 'treasoner', 'ohmicron', 'faceshes', 'bidenhood', 'beckys', 'learnit', 'haskins', 'dnj', 'nicknack', 'presidenthis', 'openbut', 'niad', 'covidare', 'ucnd', 'osho', 'sodano', 'hogworts', 'westwing', 'chinaits', 'clamour', 'chinais', 'gaslighters', 'gamethis', 'hellis', 'discred', 'sandinist', 'paand', 'idand', 'ferraris', 'valmikis', 'gastonia', 'pennsylvanians', 'arnd', 'cicatrixes', 'northams', 'nqf', 'antistock', 'plusthis', 'whyits', 'sarisota', 'leahr', 'yearnot', 'muchis', 'transgenderis', 'countryms', 'varadker', 'caville', 'mcgregors', 'sumsuch', 'tolson', 'countryusa', 'dohis', 'nothinghis', 'kofi', 'udc', 'boysare', 'antfia', 'noand', 'knifehis', 'carvelle', 'farlefts', 'screwover', 'mccrorys', 'unemploymentgas', 'ausvotes', 'mercatus', 'lightfoots', 'kernnedy', 'mostafa', 'wellthis', 'tablespooful', 'zemeckiss', 'zandt', 'pcrtest', 'nowask', 'sarsco', 'albanians', 'thenno', 'rineharts', 'wnc', 'monast', 'paraguayen', 'nsder', 'comitatus', 'centre', 'pnd', 'callingbs', 'crensaw', 'stocktrading']
+Epoch 1/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 37s 21ms/step - accuracy: 0.8535 - loss: 0.3785 - val_accuracy: 0.9297 - val_loss: 0.2525 - learning_rate: 0.0010
+Epoch 2/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 35s 21ms/step - accuracy: 0.9321 - loss: 0.2383 - val_accuracy: 0.9337 - val_loss: 0.2406 - learning_rate: 0.0010
+Epoch 3/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 35s 21ms/step - accuracy: 0.9396 - loss: 0.2093 - val_accuracy: 0.9349 - val_loss: 0.2388 - learning_rate: 0.0010
+Epoch 4/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 35s 21ms/step - accuracy: 0.9446 - loss: 0.1862 - val_accuracy: 0.9305 - val_loss: 0.2473 - learning_rate: 0.0010
+Epoch 5/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 35s 21ms/step - accuracy: 0.9492 - loss: 0.1704 - val_accuracy: 0.9339 - val_loss: 0.2420 - learning_rate: 0.0010
+Epoch 6/30
+1678/1678 ━━━━━━━━━━━━━━━━━━━━ 35s 21ms/step - accuracy: 0.9528 - loss: 0.1536 - val_accuracy: 0.9317 - val_loss: 0.2514 - learning_rate: 0.0010
+839/839 ━━━━━━━━━━━━━━━━━━━━ 5s 5ms/step
+Accuracy: 0.9348708968292411
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.93      0.93     13042
+           1       0.93      0.94      0.94     13797
+
+    accuracy                           0.93     26839
+   macro avg       0.93      0.93      0.93     26839
+weighted avg       0.93      0.93      0.93     26839
+
+Confusion Matrix:
+ [[12125   917]
+ [  831 12966]]
+Class 0: 12956 predictions (48.27%)
+Class 1: 13883 predictions (51.73%)
+Model: "sequential"
+┌─────────────────────────────────┬────────────────────────┬───────────────┐
+│ Layer (type)                    │ Output Shape           │       Param # │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ embedding (Embedding)           │ (None, 46, 300)        │     3,000,000 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv1d (Conv1D)                 │ (None, 46, 128)        │       115,328 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling1d (MaxPooling1D)    │ (None, 23, 128)        │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 23, 128)        │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ global_max_pooling1d            │ (None, 128)            │             0 │
+│ (GlobalMaxPooling1D)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 1)              │           129 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 3,346,373 (12.77 MB)
+ Trainable params: 115,457 (451.00 KB)
+ Non-trainable params: 3,000,000 (11.44 MB)
+ Optimizer params: 230,916 (902.02 KB)
+
+Process finished with exit code 0
